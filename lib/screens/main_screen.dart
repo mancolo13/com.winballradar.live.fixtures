@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.sports_soccer_outlined),
-          selectedIcon: const Icon(Icons.sports_soccer, color: AppTheme.primaryColor),
-          label: 'Live',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.compare_arrows_outlined),
-          selectedIcon: const Icon(Icons.compare_arrows, color: AppTheme.primaryColor),
-          label: 'H2H',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.format_list_numbered_outlined),
-          selectedIcon: const Icon(Icons.format_list_numbered, color: AppTheme.primaryColor),
-          label: 'Standings',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.notifications_none_outlined),
-          selectedIcon: const Icon(Icons.notifications, color: AppTheme.primaryColor),
-          label: 'Alerts',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.sports_soccer_outlined),
+            selectedIcon: const Icon(Icons.sports_soccer, color: AppTheme.primaryColor),
+            label: 'Live',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.calendar_today_outlined),
+            selectedIcon: const Icon(Icons.calendar_today, color: AppTheme.primaryColor),
+            label: 'Fixtures',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.analytics_outlined),
+            selectedIcon: const Icon(Icons.analytics, color: AppTheme.primaryColor),
+            label: 'Match Stats',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.notifications_active_outlined),
+            selectedIcon: const Icon(Icons.notifications_active, color: AppTheme.primaryColor),
+            label: 'Alerts',
+          ),
         ],
       ),
     );
